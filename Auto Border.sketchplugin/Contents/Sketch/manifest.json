@@ -1,0 +1,40 @@
+{
+  "author" : "Rona Sheen",
+  "commands" : [
+    {
+      "script" : "addBorders.js",
+      "name" : "Add Borders to Selected Artboards",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "autoborder.addborders"
+    },
+    {
+      "script" : "removeSelectedBorders.js",
+      "name" : "Remove Borders from Selected Artboards",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "autoborder.removeselectedborders"
+    },
+    {
+      "script" : "removeAllBorders.js",
+      "name" : "Remove All Borders from Page",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "autoborder.removeallborders"
+    }
+  ],
+  "menu" : {
+    "title" : "Auto Border",
+    "items" : [
+      "autoborder.addborders", "autoborder.removeselectedborders", "autoborder.removeallborders",
+    ]
+  },
+  "identifier" : "com.rona-sheen.auto-border",
+  "version" : "1.0",
+  "description" : "Generate rectangle borders on your artboard for exporting with borders!",
+  "authorEmail" : "",
+  "name" : "Auto Border"
+}
